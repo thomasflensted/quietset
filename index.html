@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Workout</title>
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <button id="generate" class="btn">
+        New workout
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5"/></svg>
+      </button>
+    </header>
+
+    <p id="empty" class="empty">No workout yet.</p>
+
+    <section id="workout" hidden>
+      <ol id="exercise-list" class="ex-list"></ol>
+      <div class="rounds-row">
+        <span class="label">Rounds</span>
+        <div id="rounds" class="rounds"></div>
+      </div>
+    </section>
+
+    <section id="history-section" hidden>
+      <h2>Previous</h2>
+      <ul id="history" class="hist-list"></ul>
+    </section>
+  </main>
+
+  <script src="exercises.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
