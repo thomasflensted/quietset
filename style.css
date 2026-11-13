@@ -119,6 +119,7 @@ h2 {
 }
 .hist:hover .hist-names { color: var(--text); }
 .hist-names {
+  display: block;
   color: var(--muted);
   white-space: nowrap;
   overflow: hidden;
