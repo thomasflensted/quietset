@@ -42,7 +42,7 @@ const EXERCISES = [
   { id: "hollow-hold",       slot: "core",  eq: "BW", name: "Hollow hold",           reps: "30 sec" },
   { id: "bird-dog",          slot: "core",  eq: "BW", name: "Bird dog",              reps: "10 / side" },
   { id: "bear-hold",         slot: "core",  eq: "BW", name: "Bear plank hold",       reps: "40 sec" },
-  { id: "slow-climbers",     slot: "core",  eq: "BW", name: "Slow mountain climbers", reps: "10 / side" },
+  { id: "slow-climbers",     slot: "core",  eq: "BW", name: "Mountain climbers", reps: "10 / side" },
   { id: "db-russian-twist",  slot: "core",  eq: "DB", name: "Russian twist",         reps: "12 / side" },
   { id: "db-halo",           slot: "core",  eq: "DB", name: "Halo",                  reps: "8 / direction" },
   { id: "db-get-up",         slot: "core",  eq: "DB", name: "Turkish get-up",        reps: "2 / side" },

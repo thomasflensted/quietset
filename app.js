@@ -119,7 +119,6 @@ function render() {
       <li>
         <button class="hist ${h.id === currentId ? "active" : ""}" data-open="${h.id}">
           <span class="hist-names">${esc(names)}</span>
-          <span class="hist-status">${h.rounds}/${ROUNDS}</span>
         </button>
       </li>`;
     })

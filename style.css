@@ -111,9 +111,7 @@ h2 {
 }
 .hist-list li { border-bottom: 1px solid var(--line); }
 .hist {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 12px;
+  display: block;
   width: 100%;
   padding: 10px 0;
   text-align: left;
@@ -126,7 +124,6 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.hist-status { color: var(--muted); }
 .hist.active, .hist.active .hist-names { font-weight: 600; color: var(--text); }
 
 @media (max-width: 420px) {
