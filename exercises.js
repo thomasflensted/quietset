@@ -30,6 +30,7 @@ const EXERCISES = [
   // Push: chest, shoulders, triceps
   { id: "push-up",           slot: "push",  eq: "BW", name: "Push-up",               reps: "12" },
   { id: "close-push-up",     slot: "push",  eq: "BW", name: "Close-grip push-up",    reps: "10" },
+  { id: "hand-release-push-up", slot: "push", eq: "BW", name: "Hand-release push-up", reps: "10", note: "Lower all the way to the floor" },
   { id: "pike-push-up",      slot: "push",  eq: "BW", name: "Pike push-up",          reps: "8" },
   { id: "floor-press",       slot: "push",  eq: "ANY", name: "Single-arm floor press", reps: "8 / side" },
   { id: "db-ohp",            slot: "push",  eq: "DB", name: "Overhead press",        reps: "10 / side" },
