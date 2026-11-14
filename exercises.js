@@ -9,11 +9,15 @@ const EXERCISES = [
   { id: "cossack-squat",     slot: "squat", eq: "KB", name: "Cossack squat",         reps: "6 / side" },
   { id: "bulgarian-split",   slot: "squat", eq: "DB", name: "Bulgarian split squat", reps: "8 / side", note: "Rear foot on couch or chair" },
   { id: "db-reverse-lunge",  slot: "squat", eq: "DB", name: "Reverse lunge",         reps: "10 / side" },
+  { id: "db-forward-lunge",  slot: "squat", eq: "DB", name: "Forward lunge",         reps: "10 / side", note: "Step down softly" },
+  { id: "kb-front-squat",    slot: "squat", eq: "KB", name: "Front rack squat",      reps: "8 / side", note: "Kettlebell racked on one shoulder" },
   { id: "db-lateral-lunge",  slot: "squat", eq: "DB", name: "Lateral lunge",         reps: "8 / side" },
   { id: "wall-sit",          slot: "squat", eq: "BW", name: "Wall sit",              reps: "45 sec" },
 
   // Hinge: hamstrings, glutes, lower back
   { id: "kb-swing",          slot: "hinge", eq: "KB", name: "Kettlebell swing",      reps: "15" },
+  { id: "kb-snatch",         slot: "hinge", eq: "KB", name: "Kettlebell snatch",     reps: "8 / side", note: "Lower it under control" },
+  { id: "db-snatch",         slot: "hinge", eq: "DB", name: "Dumbbell snatch",       reps: "8 / side", note: "Lower it under control" },
   { id: "kb-deadlift",       slot: "hinge", eq: "KB", name: "Kettlebell deadlift",   reps: "12", note: "Set it down softly" },
   { id: "kb-sumo-deadlift",  slot: "hinge", eq: "KB", name: "Sumo deadlift",         reps: "12", note: "Set it down softly" },
   { id: "kb-glute-bridge",   slot: "hinge", eq: "KB", name: "Weighted glute bridge", reps: "15", note: "Kettlebell on hips" },
@@ -45,7 +49,6 @@ const EXERCISES = [
   { id: "slow-climbers",     slot: "core",  eq: "BW", name: "Mountain climbers", reps: "10 / side" },
   { id: "db-russian-twist",  slot: "core",  eq: "DB", name: "Russian twist",         reps: "12 / side" },
   { id: "db-halo",           slot: "core",  eq: "DB", name: "Halo",                  reps: "8 / direction" },
-  { id: "db-get-up",         slot: "core",  eq: "DB", name: "Turkish get-up",        reps: "2 / side" },
   { id: "db-windmill",       slot: "core",  eq: "DB", name: "Windmill",              reps: "6 / side" },
 ];
 
