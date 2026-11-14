@@ -25,6 +25,7 @@ const EXERCISES = [
   { id: "db-sl-rdl",         slot: "hinge", eq: "DB", name: "Single-leg RDL",        reps: "8 / side" },
   { id: "db-good-morning",   slot: "hinge", eq: "DB", name: "Good morning",          reps: "12", note: "Dumbbell held at chest" },
   { id: "sl-glute-bridge",   slot: "hinge", eq: "BW", name: "Single-leg glute bridge", reps: "10 / side" },
+  { id: "superman",          slot: "hinge", eq: "BW", name: "Superman",              reps: "12", note: "Hold 2 sec at the top" },
 
   // Push: chest, shoulders, triceps
   { id: "push-up",           slot: "push",  eq: "BW", name: "Push-up",               reps: "12" },
@@ -42,6 +43,7 @@ const EXERCISES = [
 
   // Core
   { id: "plank",             slot: "core",  eq: "BW", name: "Plank",                 reps: "45 sec" },
+  { id: "sit-up",            slot: "core",  eq: "BW", name: "Sit-up",                reps: "15" },
   { id: "side-plank",        slot: "core",  eq: "BW", name: "Side plank",            reps: "30 sec / side" },
   { id: "hollow-hold",       slot: "core",  eq: "BW", name: "Hollow hold",           reps: "30 sec" },
   { id: "bird-dog",          slot: "core",  eq: "BW", name: "Bird dog",              reps: "10 / side" },
